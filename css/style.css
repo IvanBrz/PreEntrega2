@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+} 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+@font-face{
+    font-family: aaa;
+    src: url(../fonts/7theb-webfont.woff2);
+}
+
+@font-face{
+    font-family: ddd;
+    src: url(../fonts/fonderian-blackstencil-webfont.woff2);
+}
+
+@font-face{
+    font-family: sss;
+    src: url(../fonts/lldisco_-webfont.woff2);
+}
+
+@font-face{
+    font-family: headerfont;
+    src: url(../fonts/Montserrat-Light-Alt1.woff2);
+}
+
+body header{
+    background-image: url(../img/headerfooter2.jpg);
+}
+
+body main{
+    background-image: url(../img/fondogrisnuevo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body footer{
+    background-image: url(../img/headerfooter2.jpg);
+}
+
+
+
+/*!------------------------PAGINA INDEX--------------------------*/
+
+
+.hero{
+    text-decoration: none;
+    text-align: center;
+    font-family: headerfont;
+    color: aqua;
+    font-size: 50px;
+}
+
+header{
+    height: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header nav ul a{
+    text-decoration: none; 
+    color: aliceblue;  
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    align-items: flex-start;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.juegos3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.juegos3 div{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(8, 214, 255, 0.497);
+    text-decoration: none;
+    margin: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 50px;
+}
+
+.juegos3 div:hover{
+    background-color: rgb(8, 214, 255);
+}
+
+.juegos3 div img{
+    width: 400px;
+    height: 200px;
+}
+
+main section div a{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.43);
+    color: white;
+}
+
+
+
+.juegos6{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.juegos6 div{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(8, 214, 255, 0.497);
+    text-decoration: none;
+    margin: 20px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.juegos6 div:hover{
+    background-color: rgb(8, 214, 255);
+}
+
+main img{
+    width: 400px;
+    height: 200px;
+}
+
+.juegos9{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.juegos9 div{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(8, 214, 255, 0.497);
+    text-decoration: none;
+    margin: 20px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.juegos9 div:hover{
+    background-color: rgb(8, 214, 255);
+}
+
+
+
+.juegodelacontainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+.juegodela a{
+    font-family: sss;
+    font-size: 50px;
+    text-decoration: none;
+    color: aqua;
+}
+
+.juegodela span{
+    color: yellow;
+}
+
+.titulovideo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: yellow;
+}
+
+
+
+footer ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+footer a{
+    display: flex;
+    justify-content: center;
+}
+
+footer div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.carrito{
+    position: fixed;
+    right: 0%;
+    top: 50%;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 100%;
+    background-color: rgba(7, 171, 182, 0.69);
+    font-size: 20px;
+    padding: 5px;
+    box-shadow: 1px -1px 29px 0px rgba(0,0,0,0.78);
+    -webkit-box-shadow: 1px -1px 29px 0px rgba(0,0,0,0.78);
+    -moz-box-shadow: 1px -1px 29px 0px rgba(0,0,0,0.78);
+}
+
+.carrito a{
+    text-decoration: none;
+}
+
+.carrito:hover{
+    background-color: aqua;
+}
+
+
+
+
+/*!---------------------PAGINA CATEGORIAS------------------------*/
+
+main{
+    padding: 30px;
+}
+
+main section h1{
+    font-family: sss;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+.juegoscat3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.juegoscat3 div{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(255, 8, 8, 0.497);
+    text-decoration: none;
+    margin: 20px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.juegoscat3 div:hover{
+    background-color: red;
+}
+
+
+
+main section div a{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.43);
+    color: white;
+}
+
+
+.juegoscat6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.juegoscat6 div{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.497);
+    text-decoration: none;
+    margin: 20px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.juegoscat6 div:hover{
+    background-color: red;
+}
+
+.juegoscat9{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.juegoscat9 div{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(255, 0, 0, 0.497);
+    text-decoration: none;
+    margin: 20px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.juegoscat9 div:hover{
+    background-color: red;
+}
+
+main .paginas{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+.paginas img{
+    width: 15px;
+    height: 15px;
+}
+
+
+/*!--------------------PAGINA OFERTAS--------------------------*/
+
+
+.juegosofertas3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.juegosofertas3 div{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(4, 255, 0, 0.497);
+    text-decoration: none;
+    margin: 20px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.juegosofertas3 div:hover{
+    background-color: green;
+}
+
+
+main section div a{
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.43);
+    color: white;
+}
+
+
+.juegosofertas6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.juegosofertas6 div{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(17, 255, 0, 0.497);
+    text-decoration: none;
+    margin: 20px;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+
+
+.juegosofertas6 div:hover{
+    background-color: green;
+}
+
+
+.juegosofertas9{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.juegosofertas9 div{
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgba(17, 255, 0, 0.497);
+    text-decoration: none;
+    margin: 20px;
+    border: 2px solid rgb(0, 0, 0);
+
+
+}
+
+.juegosofertas9 div:hover{
+    background-color: green;
+}
+
+
+/*!-------------------------PAGINA FAQ--------------------------*/
+
+.faqsec{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.faqsec:hover{
+    color: black;
+}
+
+.faqsec div{
+    border: 2px solid aqua;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.727);
+    color: rgba(0, 255, 255, 0.699);
+    font-size: 25px;
+}
+
+.faqsec div p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: rgba(237, 226, 226, 0.84);
+    margin: 10px;
+}
+
+.faqsec div:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+
+
+
+
+
+
+/*!---------------------PAGINA CONTACTENOS-----------------------*/
+
+
+.maincontact h2:hover{
+    color: bisque;
+}
+
+.maincontact{
+    text-align: center;
+    font-size: 32px;
+}
+
+.maincontact h1{
+    font-family: sss;
+    font-size: 70px;
+}
+
+.maincontact section{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
