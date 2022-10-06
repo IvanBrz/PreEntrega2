@@ -27,23 +27,38 @@
 }
 
 body header{
-    background-image: url(../img/headerfooter2.jpg);
-}
-
-body main{
-    background-image: url(../img/fondogrisnuevo.png);
+    background-image: url(../img/fondonuevo4.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
+body main{
+    background-image: url(../img/fondogris2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 body footer{
-    background-image: url(../img/headerfooter2.jpg);
+    background-image: url(../img/fondonuevo4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    padding: 20px;
 }
 
 
 
 /*!------------------------PAGINA INDEX--------------------------*/
 
+
+nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
 .hero{
     text-decoration: none;
@@ -461,9 +476,6 @@ main section div a{
 /*!---------------------PAGINA CONTACTENOS-----------------------*/
 
 
-.maincontact h2:hover{
-    color: bisque;
-}
 
 .maincontact{
     text-align: center;
