@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
     box-sizing: border-box ;
 } 
 
@@ -56,6 +58,18 @@ nav{
     flex-wrap: wrap;
 }
 
+
+@keyframes slidefromleft {
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
 /*!------------------------PAGINA INDEX--------------------------*/
 
 
@@ -71,10 +85,15 @@ nav{
 }
 
 header{
+    width: 100%;
     height: 170px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+header nav{
+        width: 1440px;
 }
 
 header nav ul a{
@@ -92,7 +111,18 @@ header nav ul {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-
+.bienvenidos{
+    font-family: sss;
+    font-size: 50px;
+    text-align: center;
+    color: #033138;
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+    color: #058a9e;
+    background: #232323;
+    animation-name: slidefromleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
 
 .juegos3{
     width: 100%;
@@ -138,6 +168,7 @@ main section div a{
     flex-wrap: wrap;
     background-color: rgba(0, 0, 0, 0.378);
     padding: 10px;
+    margin: 10px;
 }
 
 .juegodela a{
@@ -203,7 +234,6 @@ footer div{
     background-color: aqua;
 }
 
-
 /****************MEDIA QUERIE***************/
 
 
@@ -215,10 +245,15 @@ footer div{
     .juegos3 div{
         font-size: 13px;
     }
-    
+    .titulofaq h2{
+        font-size: 40px;
+    }
 }
 
 @media screen and (max-width:650px){
+    .bienvenidos{
+        font-size: 30px;
+    }
     .juegos3{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -239,6 +274,15 @@ footer div{
         width: 450px;
         height: 275px;
     }
+    .tituloform h2{
+        font-size: 40px;
+    }
+    .maincontact h2{
+        font-size: 30px;
+    }
+    .maincontact label{
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width:530px){
@@ -258,9 +302,21 @@ footer div{
         width: 300px;
         height: 250px;
     }
+    .titulofaq h2{
+        font-size: 30px;
+    }
+    .faqsec h2{
+        font-size: 25px;
+    }
+    .faqsec p{
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width:450px) {
+    .bienvenidos{
+        font-size: 20px;
+    }
     header{
         height: 130px;
     }
@@ -281,6 +337,21 @@ footer div{
         width: 250px;
         height: 200px;
     }
+    .titulofaq h2{
+        font-size: 25px;
+    }
+    .faqsec h2{
+        font-size: 20px;
+    }
+    .faqsec p{
+        font-size: 10px;
+    }
+    .maincontact label{
+        font-size: 20px;
+    }
+    .maincontact select{
+        inline-size: 250px;
+    }
 }
 
 
@@ -290,12 +361,17 @@ main{
     padding: 30px;
 }
 
-main section h1{
+main .titulocat{
     font-family: sss;
     font-size: 50px;
     text-align: center;
-    position: relative;
-    top: 20px;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00, 2px 2px 3px rgba(206,89,55,0), 2px 2px 3px rgba(206,89,55,0);
+    color: #270404;
+    background: rgb(226,40,50);
+    background: radial-gradient(circle, rgba(226,40,50,1) 0%, rgba(0,0,0,1) 50%, rgba(226,40,50,1) 100%);
+    animation-name: slidefromleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
 }
 
 .juegoscat3{
@@ -387,6 +463,22 @@ main .paginas{
 /*!--------------------PAGINA OFERTAS--------------------------*/
 
 
+.titulodeofertas{
+    font-family: sss;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18, 2px 2px 3px rgba(206,89,55,0), 2px 2px 3px rgba(206,89,55,0);
+    color: #330505;
+    background: rgb(16,128,27);
+    background: radial-gradient(circle, rgba(16,128,27,1) 0%, rgba(0,0,0,1) 50%, rgba(16,128,27,1) 100%);
+
+    animation-name: slidefromleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+
+
 .juegosofertas3{
     display: flex;
     flex-wrap: wrap;
@@ -467,6 +559,21 @@ main section div a{
 
 /*!-------------------------PAGINA FAQ--------------------------*/
 
+.titulofaq{
+    font-family: sss;
+    font-size: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #912C22;
+    text-shadow: 0 0 10px #FFFFFF;
+    color: #FFFFFF;
+    background: #232323;
+
+    animation-name: slidefromleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
 .faqsec{
     display: flex;
     flex-wrap: wrap;
@@ -508,7 +615,19 @@ main section div a{
 
 /*!---------------------PAGINA CONTACTENOS-----------------------*/
 
+.tituloform{
+    font-family: sss;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: #e0e0e0 1px 1px 0, 2px 2px 2px rgba(206,89,55,0), 2px 2px 2px rgba(206,89,55,0);
+    color: #ffffff;
+    background: #232323;
+    border: #058a9e 3px solid;
 
+    animation-name: slidefromleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
 
 .maincontact{
     text-align: center;
@@ -522,9 +641,13 @@ main section div a{
     background-color: rgba(0, 0, 0, 0.903);
 }
 
-.maincontact section{
+.maincontact{
     display: flex;
     flex-direction: column;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: rgba(0, 0, 0, 0.523);
+}
+
+.maincontact select{
+    block-size: 30px;
 }
