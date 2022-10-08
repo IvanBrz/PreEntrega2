@@ -311,6 +311,9 @@ footer div{
     .faqsec p{
         font-size: 15px;
     }
+    .juegos3 div{
+        font-size: 8px;
+    }
 }
 
 @media screen and (max-width:450px) {
@@ -323,9 +326,6 @@ footer div{
     header nav ul{
         font-size: 15px;
         margin: 60px;
-    }
-    .juegos3 div{
-        font-size: 7px;
     }
     .hero h1{
         font-size: 40px;
