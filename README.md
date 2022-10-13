@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Ivan</h1>
 <h3 align="center">A passionate frontend developer from Argentina</h3>
 
-- 🔭 I’m currently working on [Coder-Proyect](https://ivanbrz.github.io/coder-proyect/)
+- 🔭 I’m currently working on [Coder-Proyect](https://github.com/IvanBrz/PreEntrega2/)
 
 
 <h3 align="left">Languages and Tools:</h3>
