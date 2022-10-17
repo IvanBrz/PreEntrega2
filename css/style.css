@@ -389,6 +389,13 @@ footer div{
     .maincontact select{
         inline-size: 250px;
     }
+    section .container .col p{
+        font-size: 7px;
+        margin: 5px;
+    }
+    section .container .col h3{
+        font-size: 10px;
+    }
 }
 
 
