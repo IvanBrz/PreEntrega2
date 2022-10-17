@@ -342,6 +342,13 @@ footer div{
     .juegos3 div{
         font-size: 8px;
     }
+    section .container .col h3{
+        font-size: 15px;
+    }
+    section .container .col p{
+        font-size: 10px;
+        margin: 0%;
+    }
 }
 
 @media screen and (max-width:450px) {
