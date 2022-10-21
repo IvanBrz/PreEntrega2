@@ -258,6 +258,7 @@ footer div{
     .juegos3 div{
         font-size: 13px;
     }
+
     .juegosofertas3 .h3h4a{
         font-size: 10px;
     }
@@ -412,6 +413,14 @@ main{
     padding: 30px;
 }
 
+
+.dropdown button{
+    background: none;
+    border: none;
+    font-size: 25px;
+}
+
+
 main .titulocat{
     font-family: sss;
     font-size: 50px;
@@ -439,17 +448,23 @@ main .titulocat{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     text-align: center;
-    background-color: rgba(255, 8, 8, 0.497);
+    background-color: rgba(0, 0, 0, 0.497);
     text-decoration: none;
+    padding: 3px;
     margin: 20px;
     border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: 1s;
 }
 
 .juegoscat3 div:hover{
-    background-color: red;
+    background-color: rgb(189, 19, 19);
+    transform:scale(1.1);
 }
 
-
+.juegocat3 div h3,a:hover{
+    color: white;
+}
 
 main section div a{
     text-decoration: none;
@@ -458,59 +473,13 @@ main section div a{
 }
 
 
-.juegoscat6{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
 
-.juegoscat6 div{
-    color: rgb(0, 0, 0);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    background-color: rgba(255, 0, 0, 0.497);
-    text-decoration: none;
-    margin: 20px;
-    border: 2px solid rgb(0, 0, 0);
-}
-
-.juegoscat6 div:hover{
-    background-color: red;
-}
-
-.juegoscat9{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.juegoscat9 div{
-    color: rgb(0, 0, 0);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    background-color: rgba(255, 0, 0, 0.497);
-    text-decoration: none;
-    margin: 20px;
-    border: 2px solid rgb(0, 0, 0);
-}
-
-.juegoscat9 div:hover{
-    background-color: red;
-}
 
 main .paginas{
     display: flex;
     justify-content: center;
-    color: white;
 }
 
-
-.paginas img{
-    width: 15px;
-    height: 15px;
-}
 
 
 /*!--------------------PAGINA OFERTAS--------------------------*/
