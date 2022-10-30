@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
@@ -68,7 +68,7 @@ nav{
         margin-left: 0%;
         width: 100%;
     }
-}
+} */
 
 
 /*!------------------------PAGINA INDEX--------------------------*/
@@ -247,7 +247,7 @@ footer div{
     background-color: aqua;
 }
 
-/****************MEDIA QUERIE***************/
+/****************MEDIA QUERY***************/
 
 
 
